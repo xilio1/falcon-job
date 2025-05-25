@@ -6,7 +6,7 @@
         <artifactId>falcon-job</artifactId>
         <version>1.0.0</version>
     </parent>
-    <artifactId>falconjob-spring-boot-starter</artifactId>
+    <artifactId>falcon-job-spring-boot-starter</artifactId>
     <packaging>jar</packaging>
     <name>${project.artifactId}</name>
     <dependencies>

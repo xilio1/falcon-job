@@ -8,9 +8,10 @@
 
     <name>${project.artifactId}</name>
     <modules>
-        <module>core</module>
-        <module>admin</module>
-
+        <module>falcon-job-core</module>
+        <module>falcon-job-admin</module>
+        <module>falcon-job-spring-boot-starter</module>
+        <module>falcon-job-sample</module>
     </modules>
 
     <properties>
