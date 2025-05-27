@@ -13,6 +13,15 @@
         <module>falcon-job-spring-boot-starter</module>
         <module>falcon-job-sample</module>
     </modules>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>cn.xilio</groupId>
+                <artifactId>falcon-job-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <properties>
         <!-- env -->
